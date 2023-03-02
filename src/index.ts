@@ -1,3 +1,5 @@
+import useFormContent from "./useFormContent";
+
 interface IOptions {
   otherOperators?: any;
 }
@@ -202,4 +204,8 @@ export default (state: any, formData: any, opt: IOptions = {}) => {
     toReversePolishNotation,
     computeReversePolishNotation,
   };
+};
+
+export {
+  useFormContent
 };
